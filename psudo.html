@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		/*p::first-letter{
+			font-size: 50px;
+			color: teal;
+			text-shadow: 5px 5px 5px gray;
+		}
+		p::first-line{
+			color: orange;
+			background-color: black;
+		}*/
+		b::before{
+			content: '111';
+		}
+		b::after{
+			content: '""';
+		}
+		button::before{
+			content: '';
+			width: 20px;
+			height: 20px;
+			background-color: deeppink;
+			display: flex;
+			clip-path:  polygon(50% 0%, 0% 100%, 100% 100%);;
+
+		}
+		section:hover{
+			background-color: deeppink;
+			color: white;
+			padding: 30px;
+			border: 3px solid black;
+			transform: rotate(340deg);
+			transition-duration: 2s;
+		}
+		button:hover{
+			transform: scale(2);
+			transition-duration: 2s;
+		}
+		p:first-child{
+			background-color: greenyellow;
+
+
+		}
+		p:last-child{
+			background-color: orange;
+		}
+		p:nth-child(4){
+			background-color: yellow;
+		}
+
+
+	</style>
+</head>
+<body>
+	<p>
+		Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	
+	<p>
+		Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	
+	<p>
+		Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	
+	<p>
+		Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	
+	<p>
+		Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	
+	<section>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</section>
+	<button>Click Here</button>
+	<b>This is a Bold tag</b>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+</body>
+</html>
